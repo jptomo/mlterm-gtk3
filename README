@@ -19,13 +19,13 @@ BUILD
 	
 	And then,
 	
-		$ git clone git://github.com/jptomo/mlterm-gtk3-fcitx.git
-		$ cd mlterm-gtk3-fcitx
-		$ rpmbuild  mlterm-gtk3-fcitx.spec -bb
+	$ git clone git://github.com/jptomo/mlterm-gtk3-fcitx.git
+	$ cd mlterm-gtk3-fcitx
+	$ rpmbuild  mlterm-gtk3-fcitx.spec -bb
 	
 	or if you'd like to get SRPM, then,
 	
-		$ rpmbuild  mlterm-gtk3-fcitx.spec -bs
+	$ rpmbuild  mlterm-gtk3-fcitx.spec -bs
 
 SEE ALSO
 
