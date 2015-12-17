@@ -13,6 +13,20 @@ INSTALL
 	$ sudo dnf copr enable tom0/mlterm-gtk3-fcitx
 	$ sudo dnf install mlterm-gtk3-fcitx
 
+BUILD
+
+	If you'd like to build it. First, you should install RPM Development Tools group.
+	
+	And then,
+	
+		$ git clone git://github.com/jptomo/mlterm-gtk3-fcitx.git
+		$ cd mlterm-gtk3-fcitx
+		$ rpmbuild  mlterm-gtk3-fcitx.spec -bb
+	
+	or if you'd like to get SRPM, then,
+	
+		$ rpmbuild  mlterm-gtk3-fcitx.spec -bs
+
 SEE ALSO
 
 	https://copr.fedoraproject.org/coprs/tom0/mlterm-gtk3-fcitx/]
