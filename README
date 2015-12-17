@@ -10,8 +10,8 @@ DESCRIPTION
 
 INSTALL
 
-	$ sudo dnf copr enable tom0/mlterm-gtk3-fcitx
-	$ sudo dnf install mlterm-gtk3-fcitx
+	# dnf copr enable tom0/mlterm-gtk3-fcitx
+	# dnf install mlterm-gtk3-fcitx
 
 BUILD
 
