@@ -1,13 +1,18 @@
-# mlterm-gtk3-fcitx
+NAME
 
-Aim to build my mlterm.
+	mlterm-gtk3-fcitx - Aim to build my mlterm.
 
-- (original)[http://mlterm.sourceforge.net/]
-- (Fedora Copr)[https://copr.fedoraproject.org/coprs/tom0/mlterm-gtk3-fcitx/]
+DESCRIPTION
 
-## install
+	The mlterm original is on http://mlterm.sourceforge.net/ .
+	I'm using mlterm on Fedora, and Fedora do not have a mlterm rpm.
+	So, I'd like to build it.
 
-```console
-$ sudo dnf copr enable tom0/mlterm-gtk3-fcitx
-$ sudo dnf install mlterm-gtk3-fcitx
-```
+INSTALL
+
+	$ sudo dnf copr enable tom0/mlterm-gtk3-fcitx
+	$ sudo dnf install mlterm-gtk3-fcitx
+
+SEE ALSO
+
+	https://copr.fedoraproject.org/coprs/tom0/mlterm-gtk3-fcitx/]
