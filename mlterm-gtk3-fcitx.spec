@@ -41,7 +41,14 @@ various character sets and encodings in the world.
 %build
 %configure \
   --prefix=%{buildroot} \
+  --enable-uim \
+  --enable-m17nlib \
+  --enable-ibus \
   --enable-fcitx \
+  --enable-scim \
+  --enable-canna \
+  --enable-wnn \
+  --enable-vt52 \
   --disable-utmp \
   --enable-optimize-redrawing \
   --with-gtk=3.0 \
