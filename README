@@ -1,6 +1,6 @@
 NAME
 
-	mlterm-gtk3-fcitx
+	mlterm-gtk3
 
 DESCRIPTION
 
@@ -10,8 +10,8 @@ DESCRIPTION
 
 INSTALL
 
-	# dnf copr enable tom0/mlterm-gtk3-fcitx
-	# dnf install mlterm-gtk3-fcitx
+	# dnf copr enable tom0/mlterm-gtk3
+	# dnf install mlterm-gtk3
 
 BUILD
 
@@ -19,14 +19,16 @@ BUILD
 	
 	And then,
 	
-	$ git clone git://github.com/jptomo/mlterm-gtk3-fcitx.git
-	$ cd mlterm-gtk3-fcitx
-	$ rpmbuild  mlterm-gtk3-fcitx.spec -bb
+	$ git clone git://github.com/jptomo/mlterm-gtk3.git
+	$ cd mlterm-gtk3
+	$ rpmbuild  mlterm-gtk3.spec -bb
+	$ rpm -Uvh /path/to/rpmbuild/
 	
 	or if you'd like to get SRPM, then,
 	
-	$ rpmbuild  mlterm-gtk3-fcitx.spec -bs
+	$ rpmbuild  mlterm-gtk3.spec -bs
+	$ 
 
 SEE ALSO
 
-	https://copr.fedoraproject.org/coprs/tom0/mlterm-gtk3-fcitx/
+	https://copr.fedoraproject.org/coprs/tom0/mlterm-gtk3/
