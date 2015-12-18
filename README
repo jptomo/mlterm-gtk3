@@ -22,12 +22,12 @@ BUILD
 	$ git clone git://github.com/jptomo/mlterm-gtk3.git
 	$ cd mlterm-gtk3
 	$ rpmbuild  mlterm-gtk3.spec -bb
-	$ rpm -Uvh /path/to/rpmbuild/
+	$ rpm -Uvh /path/to/rpmbuild/RPMS/x86_64/mlterm-gtk3-3.6.1-1.fc23.x86_64.rpm
 	
 	or if you'd like to get SRPM, then,
 	
 	$ rpmbuild  mlterm-gtk3.spec -bs
-	$ 
+	$ cp /path/to/rpmbuild/SRPMS/mlterm-gtk3-3.6.1-1.fc23.src.rpm .
 
 SEE ALSO
 
