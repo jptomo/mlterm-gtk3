@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=mlterm
 Comment=Multi Lingual TERMinal emulator on X
-Exec=/usr/bin/mlclient
+Exec=/usr/bin/mlterm
 Icon=utilities-terminal
 Terminal=false
 Type=Application

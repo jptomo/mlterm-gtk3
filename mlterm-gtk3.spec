@@ -4,7 +4,7 @@ Summary: mlterm(Multi Lingual TERMinal emulator)
 URL:     http://sourceforge.net/projects/mlterm/
 Name: mlterm-gtk3
 Version: 3.6.1
-Release: 1%{?dist}
+Release: 2%{?dist}
 Epoch: 1
 License: BSD License
 
@@ -117,5 +117,8 @@ rm -rf %{buildroot}
 %{_datadir}/locale/zh_TW/LC_MESSAGES/mlconfig.mo
 
 %changelog
+* Wed Dec 16 2015 Tomohiro NAKAMURA <quickness.net@gmail.com> 3.6.0-2
+- fix desktop Exec
+
 * Wed Dec 16 2015 Tomohiro NAKAMURA <quickness.net@gmail.com> 3.6.0-1
 - create spec file and build it
